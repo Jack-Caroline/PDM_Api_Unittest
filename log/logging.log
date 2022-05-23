@@ -1,0 +1,35 @@
+ERROR 2022-05-21 20:04:55,792 test_login 57584 4681108992 用例登录成功,执行通过
+ERROR 2022-05-21 20:04:55,917 test_login 57584 4681108992 用例用户名错误-登录失败,执行通过
+ERROR 2022-05-21 20:04:56,063 test_login 57584 4681108992 用例密码错误-登录失败,执行通过
+ERROR 2022-05-21 20:04:56,233 test_login 57584 4681108992 用例登录成功，执行未通过,Success
+ERROR 2022-05-21 20:04:56,233 test_login 57584 4681108992 assert '用户名或密码无效' == 'Success'
+  - Success
+  + 用户名或密码无效
+Traceback (most recent call last):
+  File "/Users/liangling/Desktop/jack/Python/PDM_Api_Pytest/testcases/test_login.py", line 31, in test_login
+    assert expected == res
+AssertionError: assert '用户名或密码无效' == 'Success'
+  - Success
+  + 用户名或密码无效
+ERROR 2022-05-21 20:04:56,436 test_login 57584 4681108992 用例用户名错误-登录失败，执行未通过,用户名或密码无效
+ERROR 2022-05-21 20:04:56,437 test_login 57584 4681108992 assert 'Success' == '用户名或密码无效'
+  - 用户名或密码无效
+  + Success
+Traceback (most recent call last):
+  File "/Users/liangling/Desktop/jack/Python/PDM_Api_Pytest/testcases/test_login.py", line 31, in test_login
+    assert expected == res
+AssertionError: assert 'Success' == '用户名或密码无效'
+  - 用户名或密码无效
+  + Success
+ERROR 2022-05-21 20:04:56,606 conftest 57584 4681108992 Success
+ERROR 2022-05-21 20:04:56,812 test_project 57584 4681108992 测试用例新增项目成功，执行成功
+ERROR 2022-05-21 20:04:56,938 test_project 57584 4681108992 测试用例新增项目成功，执行成功
+ERROR 2022-05-21 20:04:57,061 test_project 57584 4681108992 测试用例新增项目成功，执行成功
+ERROR 2022-05-21 20:04:57,175 test_project 57584 4681108992 测试用例新增项目成功，执行成功
+ERROR 2022-05-21 20:04:57,291 test_project 57584 4681108992 测试用例新增项目成功，执行成功
+ERROR 2022-05-21 20:04:57,464 conftest 57584 4681108992 Success
+ERROR 2022-05-21 20:04:57,554 test_project_side 57584 4681108992 测试用例新增项目方成功，执行成功
+ERROR 2022-05-21 20:04:57,647 test_project_side 57584 4681108992 测试用例新增项目方成功，执行成功
+ERROR 2022-05-21 20:04:57,736 test_project_side 57584 4681108992 测试用例新增项目方成功，执行成功
+ERROR 2022-05-21 20:04:57,827 test_project_side 57584 4681108992 测试用例新增项目方成功，执行成功
+ERROR 2022-05-21 20:04:57,917 test_project_side 57584 4681108992 测试用例新增项目方成功，执行成功
