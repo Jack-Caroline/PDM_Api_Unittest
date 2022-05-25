@@ -3,20 +3,21 @@
 # Filename:jinxiaojian
 # Create Time: 2022/5/15 上午 02:33
 import os
-import pytest
+import unittest
 import requests
 from common.handle_excel import Excel
 from common.handle_path import CASEDARAS_DIR
 from common.handle_log import log
+from common import myddt
 
 file_path = os.path.join(CASEDARAS_DIR, "pdm_test_data.xlsx")
 
-
-class TestLoin():
+@myddt.ddt
+class TestLoin(unittest.TestCase):
     excel = Excel(file_path, "login")
     cases = excel.read_data()
 
-    @pytest.mark.parametrize('item', cases)
+    @myddt.data(*cases)
     def test_login(self, item):
 
         url = item["url"]
@@ -30,7 +31,7 @@ class TestLoin():
         try:
             assert expected == res
         except Exception as e:
-            log.error("用例{}，执行未通过,{}".format(item["title"], res))
+            log.error("用例{}，执行未通过".format(item["title"]))
             log.exception(e)
             raise e
         else:

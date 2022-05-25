@@ -2,14 +2,13 @@
 # -*- coding: UTF-8 -*-
 # Filename:jinxiaojian
 # Create Time: 2022/5/15 上午 02:33
-import pytest
+
 import requests
 import random
 from common.handle_config import conf
 from common.handle_log import log
 
 
-@pytest.fixture(scope='class')
 def login_setup():
     url = conf.get("login", "url")
     params = {"UsernameOrEmailAddress": conf.get("login", "username"),
@@ -26,7 +25,6 @@ def login_setup():
     yield session
 
 
-@pytest.fixture(scope='class')
 def project_side(login_setup):
     session_side = login_setup
     name = "上海科学技术有限责任公司{}".format(random.randint(0,100))
