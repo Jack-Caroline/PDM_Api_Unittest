@@ -4,7 +4,6 @@
 # Create Time: 2022/5/15 上午 02:33
 
 import unittest
-import os
 from common.handle_path import TESTCASES_DIR,REPORTS_DIR
 from unittestreport import TestRunner
 from common.handle_config import conf

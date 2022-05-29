@@ -1,0 +1,41 @@
+ERROR 2022-05-29 12:47:22,972 test_project_side 64312 4465835520 Success
+ERROR 2022-05-29 12:47:22,974 test_project_side 64312 4465835520 {'.AspNet.ApplicationCookie': 'mxRDyT2Rd4pYT0oSFnj9cPlWWPuF2wF72-Rk2KJdLTM6hM_56iXSb4R7P0CPXYgYwOdIJvCiuaNZ5YP7Yh9E5NP1DSRIt0JF0AOyA-n3MGsVvPlZpgOgreTuIYgsNnKVG7ME7VSWM16ip6GBpF55xSkAoV5VJPOfCFg4-nQR4E06nsEl-Fg_CdBEinYFHHryuprb6QmLDsIg5fJnInxYuc6Vy1-k-DuAyE75JS8M05FXXhxKbUVy9_OemdaYTIBKkY1dQpIh5BxHDfymSLuvIFIJEFmlqcmDvYY5lINXGCKeHFiH6EndAlcELoiIpOCQ9GNc7neT9WjOQML-d12d2zGNw6vJ1lKOQHToDGQlZzaLGt_5bkUBBCjPfLsS48vcsY3TXPKKu0v60i8KkJQDtkfGKFNXQzbKcBRslu6otEtJNpN_Q77UT91qba5FGPdiM_AYg6KlZ6v_416p2WnEe9vgLPmRGSybfwkrjUYOUTY'}
+ERROR 2022-05-29 12:47:24,327 test_project_side 64312 4465835520 测试用例新增项目方成功，执行成功
+ERROR 2022-05-29 12:47:24,531 test_project_side 64312 4465835520 测试用例新增项目方成功，执行成功
+ERROR 2022-05-29 12:47:24,766 test_project_side 64312 4465835520 测试用例新增项目方成功，执行成功
+ERROR 2022-05-29 12:47:25,014 test_project_side 64312 4465835520 测试用例新增项目方成功，执行成功
+ERROR 2022-05-29 12:47:25,207 test_project_side 64312 4465835520 测试用例新增项目方成功，执行成功
+ERROR 2022-05-29 12:54:17,986 test_project 64633 4514332160 Success
+ERROR 2022-05-29 12:54:19,431 test_project 64633 4514332160 测试用例新增项目成功，执行成功
+ERROR 2022-05-29 12:54:19,613 test_project 64633 4514332160 测试用例新增项目成功，执行成功
+ERROR 2022-05-29 12:54:19,820 test_project 64633 4514332160 测试用例新增项目成功，执行成功
+ERROR 2022-05-29 12:54:19,994 test_project 64633 4514332160 测试用例新增项目成功，执行成功
+ERROR 2022-05-29 12:54:20,170 test_project 64633 4514332160 测试用例新增项目成功，执行成功
+ERROR 2022-05-29 12:56:28,565 test_project 64721 4676120064 Success
+ERROR 2022-05-29 13:03:22,382 test_login 64979 4432489984 用例登录成功,执行通过
+ERROR 2022-05-29 13:03:23,059 test_login 64979 4432489984 用例用户名错误-登录失败,执行通过
+ERROR 2022-05-29 13:03:23,202 test_login 64979 4432489984 用例密码错误-登录失败,执行通过
+ERROR 2022-05-29 13:03:23,396 test_login 64979 4432489984 用例登录成功，执行未通过
+ERROR 2022-05-29 13:03:23,396 test_login 64979 4432489984 
+Traceback (most recent call last):
+  File "/Users/liangling/Desktop/jack/Python/PDM_Api_Unittest/testcases/test_login.py", line 32, in test_login
+    assert expected == res
+AssertionError
+ERROR 2022-05-29 13:03:23,523 test_login 64979 4432489984 用例用户名错误-登录失败，执行未通过
+ERROR 2022-05-29 13:03:23,524 test_login 64979 4432489984 
+Traceback (most recent call last):
+  File "/Users/liangling/Desktop/jack/Python/PDM_Api_Unittest/testcases/test_login.py", line 32, in test_login
+    assert expected == res
+AssertionError
+ERROR 2022-05-29 13:03:23,780 test_project 64979 4432489984 Success
+ERROR 2022-05-29 13:03:23,969 test_project 64979 4432489984 测试用例新增项目成功，执行成功
+ERROR 2022-05-29 13:03:24,149 test_project 64979 4432489984 测试用例新增项目成功，执行成功
+ERROR 2022-05-29 13:03:24,360 test_project 64979 4432489984 测试用例新增项目成功，执行成功
+ERROR 2022-05-29 13:03:24,534 test_project 64979 4432489984 测试用例新增项目成功，执行成功
+ERROR 2022-05-29 13:03:24,717 test_project 64979 4432489984 测试用例新增项目成功，执行成功
+ERROR 2022-05-29 13:03:24,881 test_project_side 64979 4432489984 Success
+ERROR 2022-05-29 13:03:25,029 test_project_side 64979 4432489984 测试用例新增项目方成功，执行成功
+ERROR 2022-05-29 13:03:25,170 test_project_side 64979 4432489984 测试用例新增项目方成功，执行成功
+ERROR 2022-05-29 13:03:25,328 test_project_side 64979 4432489984 测试用例新增项目方成功，执行成功
+ERROR 2022-05-29 13:03:25,475 test_project_side 64979 4432489984 测试用例新增项目方成功，执行成功
+ERROR 2022-05-29 13:03:25,617 test_project_side 64979 4432489984 测试用例新增项目方成功，执行成功
